@@ -19,7 +19,7 @@ public class Car {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "generator_car")
-    @SequenceGenerator(name="generator_user", sequenceName = "sequence_car", allocationSize = 1)
+    @SequenceGenerator(name="generator_car", sequenceName = "sequence_car", allocationSize = 1)
     @Column(name = "id_car", nullable = false, unique = true)
     @EqualsAndHashCode.Include
     private UUID id;

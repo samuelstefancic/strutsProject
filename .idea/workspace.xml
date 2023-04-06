@@ -9,20 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Marque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Modele.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout entités, relations base de données&#10;Modification giignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,11 +277,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680781578335</updated>
-      <workItem from="1680781582071" duration="7751000" />
+      <workItem from="1680781582071" duration="8898000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout entités, relations base de données&#10;Modification giignore">
+      <created>1680791953679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680791953679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout entités, relations base de données&#10;Modification giignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout entités, relations base de données&#10;Modification giignore" />
   </component>
 </project>
