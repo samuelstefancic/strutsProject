@@ -4,6 +4,7 @@ import entity.Location;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.List;
 import java.util.UUID;
 
 public class LocationDAO {
@@ -17,6 +18,10 @@ public class LocationDAO {
 
     public Location getLocation(UUID id) {
         return entityManager.find(Location.class,id);
+    }
+
+    public List<Location> getAllLocations() {
+        return entityManager.createQuery("SELECT l FROM Location l", Location.class).getResultList();
     }
 
     //Update

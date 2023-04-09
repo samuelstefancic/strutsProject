@@ -33,7 +33,7 @@ public class UserService {
         }
         User existUser = userDao.getUser(user.getId());
         if (existUser == null) {
-            throw new IllegalArgumentException("User not foudn for update");
+            throw new IllegalArgumentException("User not found for update");
         }
         return userDao.updateUser(user);
     }
