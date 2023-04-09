@@ -13,7 +13,7 @@ public class CarService {
     private CarDAO carDAO;
 
     public void createCar(Car car) {
-        if (car == null || car.getId() != null) {
+        if (car == null || car.getId() == null) {
             throw new IllegalArgumentException("Invalid car object for creation");
         }
         carDAO.createCar(car);

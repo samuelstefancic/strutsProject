@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout DAO, ajout services User et Car">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/LocationService.java" afterDir="false" />
+    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ModeleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +267,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680781578335</updated>
       <workItem from="1680781582071" duration="8898000" />
-      <workItem from="1680886000966" duration="6194000" />
+      <workItem from="1680886000966" duration="11254000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout entités, relations base de données&#10;Modification giignore">
       <created>1680791953679</created>
@@ -281,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680962944198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User">
+      <created>1681030989539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681030989539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +299,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout entités, relations base de données&#10;Modification giignore" />
     <MESSAGE value="Ajout DAO, ajout services User et Car" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout DAO, ajout services User et Car" />
+    <MESSAGE value="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User" />
   </component>
 </project>
