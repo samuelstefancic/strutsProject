@@ -25,7 +25,7 @@ public class CarAction extends ActionSupport {
 
     private UUID id;
 
-    public String createUser() {
+    public String createCar() {
         carService.createCar(car);
         if (car == null) {
             return ERROR;
