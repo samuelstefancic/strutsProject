@@ -14,7 +14,6 @@ import java.util.UUID;
  @Setter
 public class UserAction extends ActionSupport {
 
-    @Inject
     private UserService userService;
 
 

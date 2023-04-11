@@ -3,97 +3,97 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-    <constant name="struts.devMode" value="value"/>
+    <constant name="struts.objectFactory" value="spring"/>
 
     <package name="default" namespace="/" extends="struts-default">
 
         <!-- Actions de l'User -->
 
-        <action name="createUser" class="action.UserAction" method="createUser">
+        <action name="createUser" class="actions.UserAction" method="createUser">
             <result name="success">/user-list.jsp</result>
         </action>
-        <action name="getUser" class="action.UserAction" method="getUser">
+        <action name="getUser" class="actions.UserAction" method="getUser">
             <result name="success">/user-details.jsp</result>
         </action>
-        <action name="getAllUsers" class="action.UserAction" method="getAllUsers">
+        <action name="getAllUsers" class="actions.UserAction" method="getAllUsers">
             <result name="success">/user-list.jsp</result>
         </action>
-        <action name="updateUser" class="action.UserAction" method="updateUser">
+        <action name="updateUser" class="actions.UserAction" method="updateUser">
             <result name="success">/user-list.jsp</result>
         </action>
-        <action name="deleteUser" class="action.UserAction" method="deleteUser">
+        <action name="deleteUser" class="actions.UserAction" method="deleteUser">
             <result name="success">/user-list.jsp</result>
         </action>
 
         <!-- Actions Car -->
 
-        <action name="createCar" class="action.CarAction" method="createCar">
+        <action name="createCar" class="actions.CarAction" method="createCar">
             <result name="success">/car-list.jsp</result>
         </action>
-        <action name="getCar" class="action.CarAction" method="getCar">
+        <action name="getCar" class="actions.CarAction" method="getCar">
             <result name ="success">/car-details.jsp</result>
         </action>
-        <action name="getAllCars" class="action.CarAction" method="getAllCars">
+        <action name="getAllCars" class="actions.CarAction" method="getAllCars">
             <result name="success">/car-list.jsp</result>
         </action>
-        <action name="updateCar" class="action.CarAction" method="updateCar">
+        <action name="updateCar" class="actions.CarAction" method="updateCar">
             <result name="success">/car-list.jsp</result>
         </action>
-        <action name="deleteCar" class="action.CarAction" method="deleteCar">
+        <action name="deleteCar" class="actions.CarAction" method="deleteCar">
             <result name="success">/car-list.jsp</result>
         </action>
 
         <!-- Actions Marques -->
 
-        <action name="createMarque" class="action.MarqueAction" method="createMarque">
+        <action name="createMarque" class="actions.MarqueAction" method="createMarque">
             <result name="success">/marque-list.jsp</result>
         </action>
-        <action name="getMarque" class="action.MarqueAction" method="getMarque">
+        <action name="getMarque" class="actions.MarqueAction" method="getMarque">
             <result name="success">/marque-details.jsp</result>
         </action>
-        <action name="getAllMarques" class="action.MarqueAction" method="getAllMarques">
+        <action name="getAllMarques" class="actions.MarqueAction" method="getAllMarques">
             <result name="success">/marque-list.jsp</result>
         </action>
-        <action name="updateMarque" class="action.MarqueAction" method="updateMarque">
+        <action name="updateMarque" class="actions.MarqueAction" method="updateMarque">
             <result name="success">/marque-list.jsp</result>
         </action>
-        <action name="deleteCar" class="action.MarqueAction" method="deleteMarque">
+        <action name="deleteCar" class="actions.MarqueAction" method="deleteMarque">
             <result name="success">/marque-list.jsp</result>
         </action>
 
         <!-- Actions Modele -->
 
-        <action name="createModele" class="action.ModeleAction" method="createModele">
+        <action name="createModele" class="actions.ModeleAction" method="createModele">
             <result name="success">/modele-list.jsp</result>
         </action>
-        <action name="getModele" class="action.ModeleAction" method="getModele">
+        <action name="getModele" class="actions.ModeleAction" method="getModele">
             <result name="success">/modele-details.jsp</result>
         </action>
-        <action name="getAllModeles" class="action.ModeleAction" method="getAllModeles">
+        <action name="getAllModeles" class="actions.ModeleAction" method="getAllModeles">
             <result name="success">/modele-list.jsp</result>
         </action>
-        <action name="updateMarque" class="action.ModeleAction" method="updateMarque">
+        <action name="updateMarque" class="actions.ModeleAction" method="updateModele">
             <result name="success">/modele-list.jsp</result>
         </action>
-        <action name="deleteCar" class="action.ModeleAction" method="deleteMarque">
+        <action name="deleteCar" class="actions.ModeleAction" method="deleteModele">
             <result name="success">/modele-list.jsp</result>
         </action>
 
         <!-- Actions Location -->
 
-        <action name="createLocation" class="action.LocationAction" method="createLocation">
+        <action name="createLocation" class="actions.LocationAction" method="createLocation">
             <result name="success">/location-list.jsp</result>
         </action>
-        <action name="getLocation" class="action.LocationAction" method="getModele">
+        <action name="getLocation" class="actions.LocationAction" method="getModele">
             <result name="success">/location-details.jsp</result>
         </action>
-        <action name="getAllLocations" class="action.LocationAction" method="getAllLocations">
+        <action name="getAllLocations" class="actions.LocationAction" method="getAllLocations">
             <result name="success">/location-list.jsp</result>
         </action>
-        <action name="updateLocation" class="action.LocationAction" method="updateMarque">
+        <action name="updateLocation" class="actions.LocationAction" method="updateMarque">
             <result name="success">/location-list.jsp</result>
         </action>
-        <action name="deleteLocation" class="action.LocationAction" method="deleteLocation">
+        <action name="deleteLocation" class="actions.LocationAction" method="deleteLocation">
             <result name="success">/location-list.jsp</result>
         </action>
     </package>

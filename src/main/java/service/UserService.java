@@ -1,7 +1,6 @@
 package service;
 
-import com.opensymphony.xwork2.inject.Inject;
-import dao.UserDao;
+import dao.UserDaoImpl;
 import entity.User;
 
 import java.util.List;
@@ -9,36 +8,40 @@ import java.util.UUID;
 
 public class UserService {
 
-    @Inject
-    private UserDao userDao;
+
+    private UserDaoImpl userDaoImpl;
+
+    public void setUserDao(UserDaoImpl userDaoImpl) {
+        this.userDaoImpl = userDaoImpl;
+    }
 
     public void createUser(User user) {
        if (user == null || user.getId() == null) {
            throw new IllegalArgumentException("The user object is invalid for a creation");
        }
-       userDao.createUser(user);
+       userDaoImpl.createUser(user);
     }
 
     public User getUser(UUID id) {
-        return userDao.getUser(id);
+        return userDaoImpl.getUser(id);
     }
 
     public List<User> getAllUsers() {
-        return userDao.getAllUsers();
+        return userDaoImpl.getAllUsers();
     }
 
     public User updateUser(User user) {
         if (user == null || user.getId() == null) {
             throw new IllegalArgumentException("Invalid user object for update");
         }
-        User existUser = userDao.getUser(user.getId());
+        User existUser = userDaoImpl.getUser(user.getId());
         if (existUser == null) {
             throw new IllegalArgumentException("User not found for update");
         }
-        return userDao.updateUser(user);
+        return userDaoImpl.updateUser(user);
     }
 
     public void deleteUser(UUID id) {
-        userDao.deleteUser(id);
+        userDaoImpl.deleteUser(id);
     }
 }
