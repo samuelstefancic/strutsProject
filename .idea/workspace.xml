@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ModeleService.java" afterDir="false" />
+    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout de la première classe action">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/CarAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/LocationAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/MarqueAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/struts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +271,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680781578335</updated>
       <workItem from="1680781582071" duration="8898000" />
-      <workItem from="1680886000966" duration="11254000" />
+      <workItem from="1680886000966" duration="16567000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout entités, relations base de données&#10;Modification giignore">
       <created>1680791953679</created>
@@ -290,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681030989539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout de la première classe action">
+      <created>1681034564145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681034564145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +311,7 @@
     <MESSAGE value="Ajout entités, relations base de données&#10;Modification giignore" />
     <MESSAGE value="Ajout DAO, ajout services User et Car" />
     <MESSAGE value="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout services : Location &amp;&amp; Marque + modification services Location &amp;&amp; User" />
+    <MESSAGE value="Ajout de la première classe action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la première classe action" />
   </component>
 </project>

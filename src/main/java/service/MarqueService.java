@@ -19,7 +19,7 @@ public class MarqueService {
         marqueDAO.createMarque(marque);
     }
 
-    public Marque getLocation(UUID id) { return marqueDAO.getMarque(id);}
+    public Marque getMarque(UUID id) { return marqueDAO.getMarque(id);}
 
     public List<Marque> getAllMarques() {
         return marqueDAO.getAllMarques();

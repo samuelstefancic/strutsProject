@@ -10,19 +10,18 @@ import service.UserService;
 import java.util.List;
 import java.util.UUID;
 
+ @Getter
+ @Setter
 public class UserAction extends ActionSupport {
 
     @Inject
     private UserService userService;
 
-    @Getter
-    @Setter
+
     private User user;
 
-    @Getter
     private List<User> users;
 
-    @Getter
     private UUID id;
 
     public String createUser() {
