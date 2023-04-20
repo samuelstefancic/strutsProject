@@ -3,10 +3,11 @@ package service;
 import com.opensymphony.xwork2.inject.Inject;
 import dao.ModeleDAO;
 import entity.Modele;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
-
+@Service
 public class ModeleService {
 
     @Inject
