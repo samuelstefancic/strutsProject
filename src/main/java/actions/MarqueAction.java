@@ -5,11 +5,13 @@ import com.opensymphony.xwork2.inject.Inject;
 import entity.Marque;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.struts2.convention.annotation.Action;
 import service.MarqueService;
 
 import java.util.List;
 import java.util.UUID;
 
+@Action
 @Getter
 @Setter
 public class MarqueAction extends ActionSupport {

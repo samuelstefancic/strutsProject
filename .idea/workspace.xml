@@ -9,21 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout JSP : user-list et car-list &#10;Modification fichier struts.xml, ajout du mapping&#10;Ajout dépendances pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/car-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createCar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user-details.jsp" afterDir="false" />
+    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Update dépendances, applicationContext, ajout support log4j2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/CarAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/CarAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/LocationAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/LocationAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/MarqueAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/MarqueAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/ModeleAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/ModeleAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/car-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/car-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user-list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -68,7 +72,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "features",
+    "last_opened_file_path": "C:/Users/samuel.stefancic/Desktop/gestMission",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,11 +83,13 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "0eaba331397c1f96b8e77bc5cd4f56f3",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "db2"
+      "db2",
+      "postgresql"
     ]
   }
 }]]></component>
@@ -98,6 +105,7 @@
         <option value="TomeeConfiguration" />
       </set>
     </option>
+    <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.87">
     <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -198,6 +206,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="2a71b887-ccbc-4487-8a2e-a554b838efc7" />
+        <option name="HTTP_PORT" value="5757" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -288,7 +297,9 @@
       <option name="presentableId" value="Default" />
       <updated>1680781578335</updated>
       <workItem from="1680781582071" duration="8898000" />
-      <workItem from="1680886000966" duration="35598000" />
+      <workItem from="1680886000966" duration="38735000" />
+      <workItem from="1681371002937" duration="547000" />
+      <workItem from="1681893257644" duration="11720000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout entités, relations base de données&#10;Modification giignore">
       <created>1680791953679</created>
@@ -332,11 +343,48 @@
       <option name="project" value="LOCAL" />
       <updated>1681207788265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modification JSP, modification logique métier, début de l'implémentation Dao avec interface">
+      <created>1681225200862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681225200862</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update dépendances, applicationContext, ajout support log4j2">
+      <created>1681908731695</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681908731695</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="features" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout entités, relations base de données&#10;Modification giignore" />
@@ -345,7 +393,9 @@
     <MESSAGE value="Ajout de la première classe action" />
     <MESSAGE value="Ajout actions, mdofiication pom" />
     <MESSAGE value="Ajout JSP : user-list et car-list &#10;Modification fichier struts.xml, ajout du mapping&#10;Ajout dépendances pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout JSP : user-list et car-list &#10;Modification fichier struts.xml, ajout du mapping&#10;Ajout dépendances pom.xml" />
+    <MESSAGE value="Modification JSP, modification logique métier, début de l'implémentation Dao avec interface" />
+    <MESSAGE value="Update dépendances, applicationContext, ajout support log4j2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dépendances, applicationContext, ajout support log4j2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

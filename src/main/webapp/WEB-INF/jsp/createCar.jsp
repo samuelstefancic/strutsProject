@@ -4,13 +4,17 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <html>
 <head>
-    <title>Ajouter une nouvelle voiture</title>
+  <title>Ajouter une nouvelle voiture</title>
 </head>
 <body>
-  <h1>Ajouter une nouvelle voiture</h1>
-  <s:form action="createCar">
-    <s:textfield name="car.model" label="Modèle"/>
-    <s:submit value="Ajouter la voiture"/>
-  </s:form>
+<h1>Ajouter une nouvelle voiture</h1>
+<s:form action="createCar">
+  <s:textfield name="car.modele.id" label="Modèle ID"/>
+  <s:textfield name="car.couleur" label="Couleur"/>
+  <s:textfield name="car.poids" label="Poids"/>
+  <s:textfield name="car.typeCarburant" label="Type de carburant"/>
+  <s:textfield name="car.nombreDisponible" label="Nombre disponible"/>
+  <s:submit value="Ajouter la voiture"/>
+</s:form>
 </body>
 </html>

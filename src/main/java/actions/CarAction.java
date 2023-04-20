@@ -5,16 +5,20 @@ import com.opensymphony.xwork2.inject.Inject;
 import entity.Car;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.struts2.convention.annotation.Action;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import service.CarService;
 
 import java.util.List;
 import java.util.UUID;
-
+@Controller
+@Action
 @Getter
 @Setter
 public class CarAction extends ActionSupport {
 
-    @Inject
+    @Autowired
     private CarService carService;
 
 
@@ -54,5 +58,34 @@ public class CarAction extends ActionSupport {
     public String deleteCar() {
         carService.deleteCar(id);
         return SUCCESS;
+    }
+
+    public CarService getCarService() {
+        return carService;
+    }
+
+    public List<Car> getCars() {
+        return cars;
+    }
+
+    public void setCars(List<Car> cars) {
+        this.cars = cars;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setCarService(CarService carService) {
+        this.carService = carService;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
+
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 }

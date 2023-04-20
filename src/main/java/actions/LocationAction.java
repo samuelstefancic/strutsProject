@@ -5,11 +5,12 @@ import com.opensymphony.xwork2.inject.Inject;
 import entity.Location;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.struts2.convention.annotation.Action;
 import service.LocationService;
 
 import java.util.List;
 import java.util.UUID;
-
+@Action
 public class LocationAction extends ActionSupport {
 
     @Inject

@@ -14,7 +14,8 @@
                 <th>Model</th>
                 <th>Actions</th>
             </tr>
-            <c:forEach items="{cars}" var="car">
+            <jsp:useBean id="cars" scope="request" type="java.util.List"/>
+            <c:forEach items="${cars}" var="car">
                 <tr>
                     <td><s:property value="car.id"/></td>
                     <td><s:property value="car.model"/></td>

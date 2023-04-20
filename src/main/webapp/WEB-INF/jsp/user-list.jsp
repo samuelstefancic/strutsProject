@@ -14,7 +14,7 @@
                 <th>Name</th>
                 <th>Actions</th>
             </tr>
-            <c:forEach items="{users}" var="user">
+            <c:forEach items="${users}" var="user">
                 <tr>
                     <td><s:property value="user.id" /></td>
                     <td><s:property value="user.name"/></td>

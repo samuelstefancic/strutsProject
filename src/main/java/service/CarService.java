@@ -3,10 +3,12 @@ package service;
 import com.opensymphony.xwork2.inject.Inject;
 import dao.CarDAO;
 import entity.Car;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
-
+@Service
 public class CarService {
 
     @Inject
@@ -29,7 +31,7 @@ public class CarService {
 
     public Car updateCar(Car car) {
         if (car == null || car.getId() == null) {
-            throw new IllegalArgumentException("Invalid car object for udpate");
+            throw new IllegalArgumentException("Invalid car object for update");
         }
         Car existCar = carDAO.getCar(car.getId());
         if (existCar == null) {
