@@ -8,12 +8,12 @@
 </head>
 <body>
 <h1>Ajouter une nouvelle voiture</h1>
-<s:form action="createCar">
-  <s:textfield name="car.modele.id" label="Modèle ID"/>
+<s:form action="createCar.action">
   <s:textfield name="car.couleur" label="Couleur"/>
   <s:textfield name="car.poids" label="Poids"/>
   <s:textfield name="car.typeCarburant" label="Type de carburant"/>
   <s:textfield name="car.nombreDisponible" label="Nombre disponible"/>
+  <s:select name="car.modele.id" label="Modèle" list="modeles" listKey="id" listValue="nom" />
   <s:submit value="Ajouter la voiture"/>
 </s:form>
 </body>

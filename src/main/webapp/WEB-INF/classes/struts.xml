@@ -29,6 +29,7 @@
 
         <action name="createCar" class="actions.CarAction" method="createCar">
             <result name="success">/createCar.jsp</result>
+            <result name="error">/createCar.jsp</result>
         </action>
         <action name="getCar" class="actions.CarAction" method="getCar">
             <result name ="success">/car-details.jsp</result>
@@ -41,6 +42,12 @@
         </action>
         <action name="deleteCar" class="actions.CarAction" method="deleteCar">
             <result name="success">/car-list.jsp</result>
+        </action>
+        <action name="showCreateCarForm" class="actions.CarAction" method="showCreateCarForm">
+            <result>/WEB-INF/jsp/createCar.jsp</result>
+        </action>
+        <action name="carSuccess" class="actions.CarAction" method="showCarSuccess">
+            <result>/WEB-INF/jsp/carSuccess.jsp</result>
         </action>
 
         <!-- Actions Marques -->
