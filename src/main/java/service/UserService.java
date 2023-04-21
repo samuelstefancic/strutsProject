@@ -3,6 +3,7 @@ package service;
 import dao.UserDaoImpl;
 import entity.User;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -27,7 +28,11 @@ public class UserService {
     }
 
     public List<User> getAllUsers() {
-        return userDaoImpl.getAllUsers();
+        List<User> users = userDaoImpl.getAllUsers();
+        if (users == null) {
+            users = new ArrayList<>();
+        }
+        return users;
     }
 
     public User updateUser(User user) {
