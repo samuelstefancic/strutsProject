@@ -9,13 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Ajout support postegresql, correction objet car envoyé">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/carSuccess.jsp" afterDir="false" />
+    <list default="true" id="911bb862-d2cd-46fd-b377-24782ab944ed" name="Changes" comment="Modifications logique métier">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createModele.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/modele-details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/modele-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/CarAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/CarAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ModeleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ModeleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/ModeleAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/ModeleAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MarqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MarqueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/createCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/car-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/car-details.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +297,7 @@
       <workItem from="1680781582071" duration="8898000" />
       <workItem from="1680886000966" duration="38735000" />
       <workItem from="1681371002937" duration="547000" />
-      <workItem from="1681893257644" duration="20974000" />
+      <workItem from="1681893257644" duration="35658000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout entités, relations base de données&#10;Modification giignore">
       <created>1680791953679</created>
@@ -357,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681974814311</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modifications logique métier">
+      <created>1681988751133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681988751134</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +408,8 @@
     <MESSAGE value="Modification JSP, modification logique métier, début de l'implémentation Dao avec interface" />
     <MESSAGE value="Update dépendances, applicationContext, ajout support log4j2" />
     <MESSAGE value="Ajout support postegresql, correction objet car envoyé" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout support postegresql, correction objet car envoyé" />
+    <MESSAGE value="Modifications logique métier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications logique métier" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

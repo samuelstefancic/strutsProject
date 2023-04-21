@@ -85,6 +85,9 @@
         <action name="deleteModele" class="actions.ModeleAction" method="deleteModele">
             <result name="success">/modele-list.jsp</result>
         </action>
+        <action name="showCreateModeleForm" class="actions.ModeleAction" method="showCreateModeleForm">
+            <result>/WEB-INF/jsp/createModele.jsp</result>
+        </action>
 
         <!-- Actions Location -->
 
